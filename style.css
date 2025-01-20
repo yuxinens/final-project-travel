@@ -133,3 +133,10 @@ nav .search button:hover {
         height: auto;
     }
 }
+.social-media img {
+    width: 24px; /* Sesuaikan ukuran sesuai keinginan */
+    height: 24px; /* Ukuran proporsional */
+    margin-right: 8px; /* Spasi antara logo dan teks */
+    vertical-align: middle; /* Agar logo sejajar dengan teks */
+    border-radius: 50%; /* Opsional: membuat logo menjadi bulat */
+}
