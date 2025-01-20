@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     document.getElementById('clearButton').addEventListener('click', () => {
-        searchBar.value = ''; // Clear the search bar
-        popup.classList.remove('active'); // Hide the popup
+        searchBar.value = ''; 
+        popup.classList.remove('active'); 
     });
 
     searchBar.addEventListener('input', async () => {
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let results = [];
 
-        // Search for cities in countries
+        
         data.countries.forEach(country => {
             country.cities.forEach(city => {
                 if (city.name.toLowerCase().includes(query)) {
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
 
-        // Search for beaches based on name or category
+        
         if (query.includes('beach') || query === 'beach') {
             results = results.concat(data.beaches);
         } else {
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
-        // Search for temples based on name or category
+       
         if (query.includes('temple') || query === 'temple') {
             results = results.concat(data.temples);
         } else {
