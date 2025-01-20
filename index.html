@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://via.placeholder.com/40" alt="Logo">
+            <span>Traveler</span>
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+        <div class="search">
+            <input type="text" id="searchBar" placeholder="Search recommendations...">
+            <button id="clearButton">Clear</button>
+            <div id="popup" class="popup"></div>
+        </div>
+    </nav>
+
+    <div id="home" class="container section">
+        <h1>Traveler</h1>
+        <h1>We are here to help you find recommended places to visit.</h1>
+        <p>Discover the beauty of the world with our top recommendations for breathtaking destinations. 
+            Start your adventure today! Whether you're looking for a serene beach getaway, an exciting mountain adventure, or a cultural city tour, we have the perfect place for you.
+            Our curated travel guides will provide you with all the information you need to make your trip memorable and enjoyable. 
+            From hidden gems to popular landmarks, we've got it all covered for you. Let us help you plan the journey of a lifetime!</p>
+    </div>
+    
+
+    <div id="about" class="container section">
+        <h2>About Us</h2>
+        <p>Travel is a platform for travel enthusiasts who seek their dream destinations. We specialize in recommending beaches, temples, and unique attractions across the globe.</p>
+        <p>Our mission is to inspire wanderlust and make every journey memorable.</p>
+
+        <h3>Meet Our Team</h3>
+        <div class="team-container">
+            <div class="team-member">
+                <h4>Member 1: Alice Johnson</h4>
+            </div>
+            <div class="team-member">
+                <h4>Member 2: Bob Smith</h4>
+            </div>
+            <div class="team-member">
+                <h4>Member 3: Charlie Brown</h4>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="container section">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <form>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+
+            <div class="social-media">
+                <h3>Follow Us:</h3>
+                <a href="#" target="_blank">
+                    <img src="https://via.placeholder.com/20" alt="Facebook Logo"> Facebook
+                </a>
+                <a href="#" target="_blank">
+                    <img src="https://via.placeholder.com/20" alt="Twitter Logo"> Twitter
+                </a>
+                <a href="#" target="_blank">
+                    <img src="https://via.placeholder.com/20" alt="Instagram Logo"> Instagram
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
